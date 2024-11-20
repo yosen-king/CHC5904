@@ -11,7 +11,7 @@
 import streamlit as st
 
 # Read the content of the essay.md file
-with open('output/essay1.md', 'r', encoding='utf-8') as file:
+with open('essay1.md', 'r', encoding='utf-8') as file:
     essay_content = file.read()
 
 # Split the content to insert maps under "Key Findings and Interpretation"
